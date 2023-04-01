@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/rebecca_purple"
+    android:paddingHorizontal="64dp"
+    android:paddingTop="78dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Calculate your"
+        android:textColor="@color/periwinkle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="age"
+        android:textColor="@color/beaver"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="@color/aquamarine"
+        android:paddingHorizontal="10dp"
+        android:paddingBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="age in minutes"
+        android:textColor="@color/periwinkle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/dob_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select date"
+        android:backgroundTint="@color/beaver"
+        android:textColor="@color/aquamarine"
+        />
+
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/periwinkle"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="selected date"
+        android:textColor="@color/vista_blue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/minutes_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/periwinkle"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="minutes"
+        android:textColor="@color/vista_blue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
