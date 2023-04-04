@@ -1,2 +1,2 @@
 # AgeInMinutesApp
-Age in minutes shown after selecting DOB in date picker.
+Simple Android app that shows age in minutes after selecting DOB in date picker.
